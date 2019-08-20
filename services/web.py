@@ -5,7 +5,7 @@ import json
 from requests import Session
 from requests.exceptions import RequestException
 
-WEATHER_KEY = '8fe40567ff300e84bde233ea59e73fc5'
+WEATHER_KEY = 'API_KEY'
 with open('services/city.list.json') as file:
     CITIES = json.load(file)
 

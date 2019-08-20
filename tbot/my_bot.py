@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 CHOOSING, WEATHER, CURRENCY = range(3)
 
-TOKEN = "841530376:AAEfAkUYk0rSapc6YyUKToXl2oDKYAjeq4k"
+TOKEN = "TOKEN"
 
 REQUEST_KWARGS = {"proxy_url": "http://23.237.173.102:3128/"}
 
